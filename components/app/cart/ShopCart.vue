@@ -11,10 +11,7 @@
           <div class="text-overline mb-4">{{ product.name }}</div>
 
           <v-list-item-subtitle>
-            <nuxt-link
-              @click.native="setIsShowCart()"
-              :to="'/products/' + product.slug"
-            >
+            <nuxt-link :to="'/products/' + product.slug">
               {{ product.slug }}</nuxt-link
             >
           </v-list-item-subtitle>

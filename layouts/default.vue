@@ -4,7 +4,7 @@
       <v-container>
         <app-header />
         <Nuxt />
-        <v-snackbar v-model="snackbar.isShow">
+        <!-- <v-snackbar v-model="snackbar.isShow">
           {{ snackbar.text }}
 
           <template v-slot:action="{ attrs }">
@@ -17,9 +17,9 @@
               Close
             </v-btn>
           </template>
-        </v-snackbar>
+        </v-snackbar> -->
 
-        <v-dialog v-model="isShowCart" width="500">
+        <v-dialog persistent v-model="isShowCart" width="500">
           <v-card>
             <v-card-title class="text-h5 grey lighten-2">
               Коризна
