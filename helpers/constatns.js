@@ -1,0 +1,1 @@
+export const ALREADY_ADDED = "Товар уже в корзине";
